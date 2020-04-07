@@ -1,11 +1,17 @@
 import React from 'react'
 
-const Container=(props) =>{
+const Container = (props) =>{
    
         return (
-            <div className="container">
+
+            <div className={props.clase}>
+
+                <div >
+                    <h2>X</h2>
+                    {props.texto}
 
 
+                </div>
                 
             </div>
         )
