@@ -1,101 +1,51 @@
 import React from 'react';
-import Navbar from './Components/NavBar';
+import Navbar from './Components/Nav/NavBar';
 import Container from "./Components/Gird/Container"
-import {  Row, Col } from 'react-materialize';
-import Card  from "./Components/Card"
+import {  Row, Col, Parallax } from 'react-materialize';
+import Card from './Components/Card/Card'
+
+
 
 function App() {
   return (
     <div className="App">
-<Navbar></Navbar>
-
-<br></br>
 
 
-<Row>
-<Card/>
-<Card/>
-<Card/>
-<Card/>
-<Card/>
-<Card/>
-<Card/>
-<Card/>
-</Row>
-<Row>
-
-
-<Container clase={"container col s3 m3 l3 orange darken-4 "}/>
-<Container clase={"container col s3 m3 l3 blue darken-4"}/>
-<Container clase={"container col s3 m3 l3 yellow"}/>
-<Container clase={"container col s3 m3 l3 brown"}/>
-<Container clase={"container col s3 m3 l3 white"}/>
-<Container clase={"container col s3 m3 l3 red"}/>
-<Container clase={"container col s3 m3 l3 purple"}/>
-<Container clase={"container col s3 m3 l3 green"}/>
-
-
-</Row>
-
-<Row>
-<Col
-    className="card-panel grey "
-    s={5}
-  >
-  <Container clase={"container "} texto={
+      <Navbar/>
 
 <div>
-  <ul >
-<li>hi this is text</li>
-<li>hi this is text</li>
-<li>hi this is text about eheryre dknad anjdl dasdknasdnksad
-  admkasdskmad
-  adksamdamsdksad
-  
-</li>
-<li>hi this is text</li>
-
-</ul>
-</div>
-  }/>
-
- 
-  </Col>
-  <Col
-    className="card-panel grey darken-4 "
-    s={2}
+  <Parallax
+    image={<img alt="" src="http://materializecss.com/images/parallax1.jpg"/>}
+    options={{
+      responsiveThreshold: 0
+    }}
   />
+  <div className="section black">
+    <div className="row container ">
+      <h2 className="header">
+        Work
+      </h2>
+      <Card/>
+      <Card/>
+      <Card/>
+      <Card/>
+      <Card/>
+      <Card/>
+      <Card/>
+      <Card/>
 
-  <Col
-    className="card-panel black white-text"
-    s={5}
-  >
-   <Container clase={"container "} texto={
+      
+    </div>
 
-<div>
-  <ul>
-<li>hi this is text</li>
-<li>hi this is text</li>
-<li>hi this is text about eheryre dknad anjdl dasdknasdnksad
-  admkasdskmad
-  adksamdamsdksad
-  
-</li>
-<li>hi this is text</li>
 
-</ul>
+  </div>
+  <Parallax
+    image={<img alt="" src="http://materializecss.com/images/parallax2.jpg"/>}
+    options={{
+      responsiveThreshold: 0
+    }}
+  />
 </div>
-  }/>
-
-  </Col>
-
-
-  
-
-</Row>
-
-
-
 
     </div>
   );

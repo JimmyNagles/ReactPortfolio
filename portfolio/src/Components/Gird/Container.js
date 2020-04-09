@@ -6,12 +6,9 @@ const Container = (props) =>{
 
             <div className={props.clase}>
 
-                <div >
-                    <h2>X</h2>
+
                     {props.texto}
-
-
-                </div>
+                
                 
             </div>
         )
