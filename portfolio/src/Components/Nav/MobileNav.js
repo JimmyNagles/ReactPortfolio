@@ -1,35 +1,20 @@
 import React from 'react'
-import MobileNav from "./MobileNav"
 
- function NavBar() {
+const MobileNav=(props)=> {
     
         return (
-            <div>
 
-                <MobileNav/>
-
-                <nav className="nav-wrapper orange darken-4 hide-on-small-only	 ">
-
-
-
-
-                     <a href="/" className="brand-logo center">JN</a>
+            <div className="nav-mobile orange darken-4 hide-on-med-and-up" >
+               <a href="/" className="brand-logo center">Jn</a>
                     <ul  className=" black-text">                       
                         <li><a href="/">About</a></li>
                         <li><a href="collapsible.html">Work</a></li>
                         <li><a href="collapsible.html">Contact</a></li>       
                     </ul>
-
-            
-                  
-                </nav>
-
-       
-  
-  
             </div>
         )
-  
+   
 }
 
-export default NavBar
+
+export default MobileNav
