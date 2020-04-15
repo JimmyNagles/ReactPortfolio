@@ -7,11 +7,7 @@ import MobileNav from "./MobileNav"
             <div>
 
                 <MobileNav/>
-
-                <nav className="nav-wrapper blue darken-4  hide-on-small-only	 ">
-
-
-
+                <nav className="nav-wrapper grey darken-4  hide-on-small-only	 ">
 
                      <a href="/" className="brand-logo center orange-text text-darken-4">JN</a>
                     <ul  className=" orange-text">                       

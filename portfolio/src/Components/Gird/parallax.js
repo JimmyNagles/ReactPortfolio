@@ -19,6 +19,8 @@
       </p>
     </div>
   </div>
+
+  
   <Parallax
     image={<img alt="" src="http://materializecss.com/images/parallax2.jpg"/>}
     options={{
