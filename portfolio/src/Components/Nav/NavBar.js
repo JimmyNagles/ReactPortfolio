@@ -8,16 +8,16 @@ import MobileNav from "./MobileNav"
 
                 <MobileNav/>
 
-                <nav className="nav-wrapper orange darken-4 hide-on-small-only	 ">
+                <nav className="nav-wrapper blue darken-4  hide-on-small-only	 ">
 
 
 
 
-                     <a href="/" className="brand-logo center">JN</a>
-                    <ul  className=" black-text">                       
-                        <li><a href="/">About</a></li>
-                        <li><a href="collapsible.html">Work</a></li>
-                        <li><a href="collapsible.html">Contact</a></li>       
+                     <a href="/" className="brand-logo center orange-text text-darken-4">JN</a>
+                    <ul  className=" orange-text">                       
+                        <li><a className=" orange-text text-darken-4" href="/">About</a></li>
+                        <li><a className=" orange-text text-darken-4" href="collapsible.html">Work</a></li>
+                        <li><a className=" orange-text text-darken-4" href="collapsible.html">Contact</a></li>       
                     </ul>
 
             
