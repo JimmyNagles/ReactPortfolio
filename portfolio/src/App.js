@@ -6,7 +6,10 @@ import Background from './Components/Gird/Background';
 import Vone from "./Videos/Vone.mp4"
 import Prallax from './Components/Gird/Prallax';
 import Card from './Components/Cards/Card';
-
+import PhotoOne from "./css/img/Photo (2).jpg"
+import PhotoTwo from "./css/img/Photo (5).jpg"
+import PhotoThree from "./css/img/Photo (9).jpg"
+import PhotoFour from "./css/img/Photo (11).jpg"
 
 
 function App() {
@@ -31,22 +34,22 @@ function App() {
 <Container>
   <Row>
   <Card 
-    image={Vone}
+    image={PhotoFour}
     title={<h8>food Search</h8>}
     info={<h5>Searchs for recepies of food online using react , axios and express </h5>}
     link={"google.com"}/>
       <Card 
-    image={Vone}
+    image={PhotoOne}
     title={<h8>Online Rock papper Scissor game</h8>}
     info={<h5>A game that was build using the mern stack  </h5>}
     link={"google.com"}/>
       <Card 
-    image={Vone}
+    image={PhotoThree}
     title={<h8>Tatt-it</h8>}
     info={<h5>A collaboration project made using js axios nosql express and node.js</h5>}
     link={"https://github.com/jontruong/Project2"}/>
       <Card 
-    image={Vone}
+    image={PhotoTwo}
     title={<h8>members of the  parliment of zimbawe</h8>}
     info={<h5>A collaboration  project made using the mern stack </h5>}
     link={"https://github.com/lilaouadi/Project3"}/>

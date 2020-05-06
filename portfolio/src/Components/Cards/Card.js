@@ -6,19 +6,19 @@ export default function Card(props) {
             
  
     <div class="col s12 m6 l3">
-      <div class="card-medium trasnparent">
+      <div class="card-small trasnparent">
 
       <div class="card-image">
-          <img src={props.image}></img>
-          <span class="card-title">{props.title}</span>
+          <img  width="250" height="250" src={props.image}></img>
         </div>
 
-        <div class="card-content white-text">
+          <span class="card-title white-text">{props.title}</span>
+        <div class="card-content  white-text">
        
           {props.info}
         </div>
         <div class="card-action">
-          <a href={props.link}>Github</a>
+          <a className="orange-text" href={props.link}>github</a>
           
         </div>
       </div>
