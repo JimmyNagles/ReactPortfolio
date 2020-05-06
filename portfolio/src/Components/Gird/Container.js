@@ -4,10 +4,12 @@ const Container = (props) =>{
    
         return (
 
-            <div className={props.clase}>
+            <div className="container">
+            
+         
+           
 
-
-                    {props.texto}
+                    {props.children}
                 
                 
             </div>
