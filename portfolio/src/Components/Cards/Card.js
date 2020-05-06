@@ -12,8 +12,8 @@ export default function Card(props) {
           <img  width="250" height="250" src={props.image}></img>
         </div>
 
-          <span class="card-title white-text">{props.title}</span>
-        <div class="card-content  white-text">
+          <span class="card-title left-align white-text">{props.title}</span>
+        <div class="card-content left-align white-text">
        
           {props.info}
         </div>

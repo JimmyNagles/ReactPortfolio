@@ -51,7 +51,9 @@ function App() {
       <Card 
     image={PhotoTwo}
     title={<h8>members of the  parliment of zimbawe</h8>}
-    info={<h5>A collaboration  project made using the mern stack </h5>}
+    info={<h5>A collaboration  project made using the mern stack that hopes to inform people
+      about who represents them! more countries to come.
+    </h5>}
     link={"https://github.com/lilaouadi/Project3"}/>
  
   </Row>
