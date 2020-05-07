@@ -11,6 +11,7 @@ import PhotoTwo from "./css/img/Photo (5).jpg";
 import PhotoThree from "./css/img/Photo (9).jpg";
 import PhotoFour from "./css/img/Photo (11).jpg";
 import CardPanel from "./Components/Cards/CardPanel";
+import Example from "./Components/Count/Example";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
         
       </Background>
 
+      
       <NavBar></NavBar>
 
       <Container className=" valign-wrapper">
@@ -28,6 +30,9 @@ function App() {
             <h1 className="white-text ">Full Stack Web Developer specialized in the MERN stack
             </h1>
           </div>
+
+          <Example></Example>
+
         </CardPanel>
       </Container>
 
@@ -82,6 +87,9 @@ function App() {
           />
         </Row>
       </Container>
+
+
+     
     </div>
   );
 }
