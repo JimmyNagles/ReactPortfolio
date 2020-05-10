@@ -9,19 +9,19 @@ const MobileNav=()=> {
         return (
 
             <div  >
-             <nav className="nav-wrapper grey darken-4 hide-on-med-and-up">
+             <nav className="nav-wrapper transparent hide-on-med-and-up">
 
-               <a href="/" className="brand-logo center orange-text text-darken-4">JN</a>
+               <a href="/" className="brand-logo center white-text">JN</a>
 
 
-               <Dropdown id="Dropdown_6" trigger={<a className="btn-flat  " node="button">
-                   <Icon className=" orange-text text-darken-4 large ">dehaze</Icon></a>}>
+               <Dropdown id="Dropdown_6" trigger={<a className="btn-flat   " node="button">
+                   <Icon className=" white-text large ">dehaze</Icon></a>}>
                 
-                <a className="grey darken-4 orange-text text-darken-4"  href="#">about </a>
+                <a className="transparent black-text"  href="#">about </a>
             
-                <a className="grey darken-4 orange-text text-darken-4"  href="#"> home </a>
+                <a className="transparent black-text"  href="#"> home </a>
             
-                <a className="grey darken-4 orange-text text-darken-4"  href="#"> Work </a>
+                <a className="transparent black-text"  href="#"> Work </a>
 
                 </Dropdown>
 

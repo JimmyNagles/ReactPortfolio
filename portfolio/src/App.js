@@ -12,29 +12,24 @@ import PhotoThree from "./css/img/Photo (9).jpg";
 import PhotoFour from "./css/img/Photo (11).jpg";
 import CardPanel from "./Components/Cards/CardPanel";
 import Example from "./Components/Count/Example";
-
+import Animation from "./Components/Animation/Animation";
 function App() {
   return (
     <div className="App">
-      <Background>
-        
+      <Background nav={<NavBar />}>
+        {" "}
+        <CardPanel>
+          <Container>
+            <div className="">
+              <h1 className="white-text  ">Welcome </h1>
+              <h2> Full Stack Web Developer specialized in the MERN stack</h2>
+              
+            </div>
+          </Container>
+        </CardPanel>
       </Background>
 
-      
-      <NavBar></NavBar>
-
-      <Container className=" valign-wrapper">
-        <CardPanel>
-          <div className="center">
-            <h1 className="white-text ">Welcome </h1>
-            <h1 className="white-text ">Full Stack Web Developer specialized in the MERN stack
-            </h1>
-          </div>
-
-          <Example></Example>
-
-        </CardPanel>
-      </Container>
+      <Container></Container>
 
       <Container>
         <Row>
@@ -87,9 +82,6 @@ function App() {
           />
         </Row>
       </Container>
-
-
-     
     </div>
   );
 }
