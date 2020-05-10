@@ -82,6 +82,8 @@ function App() {
           />
         </Row>
       </Container>
+
+      <Animation></Animation>
     </div>
   );
 }

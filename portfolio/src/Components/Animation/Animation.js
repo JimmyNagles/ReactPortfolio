@@ -8,7 +8,11 @@ function Animation() {
   });
   console.log(fade);
 
-  return <div></div>;
+  return (
+    <animated.div style={fade}>
+      <h2>helloo world</h2>
+    </animated.div>
+  );
 }
 
 export default Animation;
