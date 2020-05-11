@@ -6,9 +6,13 @@ function Background(props) {
   return (
     <div
       style={{
-        height: "100vh",
+        position: "relative",
+        minHeight: "100%",
+        maxHeight: "100%",
+        overflow: "hidden",
       }}
     >
+      
       {props.nav}
 
       <video
@@ -16,30 +20,31 @@ function Background(props) {
         muted
         loop
         style={{
-          position: "absolute",
           width: "100%",
-          left: "50%",
-          top: "50%",
           height: "100%",
-          objectFit: "cover",
-          transform: "translate(-50%,-50%)",
-          zIndex: "-1",
-          overflow: "hidden",
         }}
       >
-        <source src={Vone}></source>
+        <source src={Vone} type="video/mp4"></source>
       </video>
 
       <div
         style={{
-          top: "35%",
           position: "absolute",
-          transform: "translate(,-50%)",
+          top: "0",
+          color: "black",
+          backgroundColor: "rgba(0,0,0,0)",
           width: "100%",
+          height: "100%",
+          display: "flex",
+          justifyContent: "center",
+          alignItems: "center",
+          padding: "0",
         }}
       >
         {props.children}
       </div>
+
+      
     </div>
   );
 }

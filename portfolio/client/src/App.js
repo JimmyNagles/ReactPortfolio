@@ -16,21 +16,21 @@ import Animation from "./Components/Animation/Animation";
 function App() {
   return (
     <div className="App">
-      <Background nav={<NavBar />}>
+       <NavBar />
+      <Background >
         {" "}
         <CardPanel>
           <Container>
             <div className="">
               <h1 className="white-text  ">Welcome </h1>
-              <h2> Full Stack Web Developer specialized in the MERN stack</h2>
+              <h4 className="white-text"> Full Stack Web Developer specialized in the MERN stack</h4>
               
             </div>
           </Container>
         </CardPanel>
       </Background>
 
-      <Container></Container>
-
+   
       <Container>
         <Row>
           <Col l={12}>
