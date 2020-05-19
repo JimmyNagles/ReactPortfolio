@@ -16,7 +16,7 @@ export default function About() {
             <h2 className="center">Picture</h2>
           </Col>
           <Col>
-            <h2>about me information</h2>
+            <h2 className="center">about me information</h2>
           </Col>
         </Row>
       </Container>
