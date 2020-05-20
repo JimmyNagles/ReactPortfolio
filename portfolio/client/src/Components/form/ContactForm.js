@@ -12,7 +12,7 @@ function ContactForm() {
 
   const HandleSubmit = (event) => {
     event.preventDefault();
-    alert("thank you will contact ");
+
     const { Name, Email, Phone, Text } = formData;
   };
 
