@@ -6,7 +6,7 @@ export default function About() {
     <div>
       <Container>
         <Container>
-          <h2 className="white-text">About</h2>
+          <h2 className="white-text center">About</h2>
         </Container>
       </Container>
 

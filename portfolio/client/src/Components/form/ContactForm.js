@@ -34,26 +34,28 @@ function ContactForm() {
             onChange={handleInputChange}
             name="Name"
             placeholder="Name "
-            inputClassName="red-text "
+            inputClassName="white-text "
           />
           <TextInput
-            className=""
             value={formData.Email}
             onChange={handleInputChange}
             name="Email"
             placeholder="Email "
+            inputClassName="white-text "
           />
           <TextInput
             value={formData.Phone}
             onChange={handleInputChange}
             name="Phone"
             placeholder="Phone "
+            inputClassName="white-text "
           />
           <TextInput
             value={formData.Text}
             onChange={handleInputChange}
             name="Text"
             placeholder="Information "
+            inputClassName="white-text "
           />
           <Button
             className="btn right black white-text "

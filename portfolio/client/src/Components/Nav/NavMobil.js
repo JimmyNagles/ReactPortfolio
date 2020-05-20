@@ -6,7 +6,7 @@ function NavMobil() {
     <div>
       <Navbar
         className="black white-text"
-        alignLinks="right"
+        alignLinks="left"
         brand={
           <a className="brand-logo center" href="/">
             JN

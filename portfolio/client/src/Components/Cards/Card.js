@@ -1,29 +1,27 @@
-import React from 'react'
+import React from "react";
 
 export default function Card(props) {
-    return (
-        <div>
-            
- 
-    <div class="col s12 m6 l3">
-      <div class="card-small trasnparent">
-
-      <div class="card-image">
-          <img  width="250" height="250" src={props.image}></img>
-        </div>
+  return (
+    <div>
+      <div class="col s12 m6 l4">
+        <div class="card-small transparent center">
+          <div class="card-image">
+            <img width="250" height="250" src={props.image}></img>
+          </div>
 
           <span class="card-title left-align white-text">{props.title}</span>
-        <div class="card-content left-align white-text">
-       
-          {props.info}
-        </div>
-        <div class="card-action">
-          <a className="orange-text" href={props.link}>github</a>
-          
+          <div class="card-content left-align white-text">
+            <h4>{props.info}</h4>
+            <h6>{props.tech}</h6>
+          </div>
+
+          <div class="card-action">
+            <a className="orange-text" href={props.link}>
+              github
+            </a>
+          </div>
         </div>
       </div>
     </div>
-  
-        </div>
-    )
+  );
 }
