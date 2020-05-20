@@ -14,6 +14,17 @@ function ContactForm() {
     event.preventDefault();
 
     const { Name, Email, Phone, Text } = formData;
+
+
+
+//send information to my email
+
+
+
+
+
+
+
   };
 
   const handleInputChange = (event) => {
