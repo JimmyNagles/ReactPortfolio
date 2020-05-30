@@ -42,7 +42,7 @@ export default function Home() {
         <Row>
           <Card
             image={PhotoTwo}
-            title={<h8>members of the parliment of zimbawe</h8>}
+            title={<h8>members of the parliment of Zimbabwe</h8>}
             info={
               <h5>
                 A project that wants to inform people about who represents them!
