@@ -1,5 +1,5 @@
 import React from "react";
-import { Container } from "react-materialize";
+import { Container, Row } from "react-materialize";
 import ContactForm from "../Components/form/ContactForm";
 import CardInfo from "../Components/Cards/CardInfo";
 
@@ -18,13 +18,19 @@ function Contact() {
             <h4>Email: Jimmynagles@gmail.com</h4>
             <h4>Phone: 3055888834</h4>
 
-            <h5>
-              <i className="	fa fa-github"></i>
-            </h5>
+            <Row>
+              <h5 className="col">
+                <a href="">
+                  <i className="	fa fa-github"></i>
+                </a>
+              </h5>
 
-            <h5>
-              <i className="fa fa-linkedin-square"></i>
-            </h5>
+              <h5 className="col">
+                <a href="">
+                  <i className="fa fa-linkedin-square"></i>
+                </a>
+              </h5>
+            </Row>
           </CardInfo>
         </Container>
       </Container>
