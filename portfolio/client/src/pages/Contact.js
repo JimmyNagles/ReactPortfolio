@@ -17,6 +17,14 @@ function Contact() {
           <CardInfo>
             <h4>Email: Jimmynagles@gmail.com</h4>
             <h4>Phone: 3055888834</h4>
+
+            <h5>
+              <i className="	fa fa-github"></i>
+            </h5>
+
+            <h5>
+              <i className="fa fa-linkedin-square"></i>
+            </h5>
           </CardInfo>
         </Container>
       </Container>
