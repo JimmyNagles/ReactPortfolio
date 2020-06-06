@@ -19,11 +19,10 @@ export default function Home() {
         {" "}
         <CardPanel>
           <Container>
-            <h1 className="white-text  ">Welcome </h1>
-            <h4 className="white-text">
-              {" "}
-              Full Stack Web Developer specialized in the MERN stack
-            </h4>
+            <Row className="center ">
+              <h1 className="black-text ">Welcome </h1>
+              <h5 className="black-text "> Full Stack Web Developer</h5>
+            </Row>
           </Container>
         </CardPanel>
       </Background>

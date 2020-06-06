@@ -1,6 +1,6 @@
 import React from "react";
 
-import Vone from "../../Videos/Vtwo.mp4";
+import Vone from "../../Videos/Vone.mp4";
 
 function Background(props) {
   return (
@@ -38,7 +38,7 @@ function Background(props) {
           display: "flex",
           justifyContent: "center",
           alignItems: "center",
-          padding: "0",
+          padding: "40px",
         }}
       >
         {props.children}
