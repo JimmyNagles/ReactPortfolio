@@ -20,13 +20,18 @@ function Contact() {
 
             <Row>
               <h5 className="col">
-                <a href="">
+                <a
+                className="white-text" target="_blank" href="https://github.com/JimmyNagles">
                   <i className="	fa fa-github"></i>
                 </a>
               </h5>
 
               <h5 className="col">
-                <a href="">
+                <a
+                className="white-text"
+                  target="_blank"
+                  href="https://www.linkedin.com/in/jimmy-nagles-89686b191/"
+                >
                   <i className="fa fa-linkedin-square"></i>
                 </a>
               </h5>
