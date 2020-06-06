@@ -2,6 +2,7 @@ import React from "react";
 import { Container, Row } from "react-materialize";
 import ContactForm from "../Components/form/ContactForm";
 import CardInfo from "../Components/Cards/CardInfo";
+import MyFooter from "../Components/Gird/MyFooter";
 
 function Contact() {
   return (
@@ -21,14 +22,17 @@ function Contact() {
             <Row>
               <h5 className="col">
                 <a
-                className="white-text" target="_blank" href="https://github.com/JimmyNagles">
+                  className="white-text"
+                  target="_blank"
+                  href="https://github.com/JimmyNagles"
+                >
                   <i className="	fa fa-github"></i>
                 </a>
               </h5>
 
               <h5 className="col">
                 <a
-                className="white-text"
+                  className="white-text"
                   target="_blank"
                   href="https://www.linkedin.com/in/jimmy-nagles-89686b191/"
                 >
@@ -42,6 +46,8 @@ function Contact() {
       <Container>
         <ContactForm></ContactForm>
       </Container>
+
+
     </div>
   );
 }
