@@ -1,7 +1,7 @@
 const router = require("express").Router();
-const UserRoutes = require("./users");
+const MessageRoutes = require("./message");
 
 // Book routes
-router.use("/users", UserRoutes);
+router.use("/message", MessageRoutes);
 
 module.exports = router;

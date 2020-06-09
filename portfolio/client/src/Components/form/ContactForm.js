@@ -1,31 +1,37 @@
 import React, { useState } from "react";
-
+import API from "../../utils/API";
 import { Button, TextInput, Container } from "react-materialize";
+import { Link } from "react-router-dom";
 
 function ContactForm() {
   const [formData, setFormData] = useState({
     Name: "",
     Email: "",
     Phone: "",
-    Text: "",
+    Information: "",
   });
 
   const HandleSubmit = (event) => {
     event.preventDefault();
 
-    const { Name, Email, Phone, Text } = formData;
+    const { Name, Email, Phone, Information } = formData;
 
+    //send information to my email
 
-
-//send information to my email
-
-
-
-
-
-
-
+    API.AddMessage({
+      Email,
+      Phone,
+      Information,
+      Name,
+    }).then((result) => {
+      console.log(result);
+      alert("sending")
+    });
   };
+
+  //looks for the property of  name in the textinput components and looks for its value (first text input )
+  //then looks for the property of value in the textinput components and looks for its value
+  //then this function compares these two and updates it real time.
 
   const handleInputChange = (event) => {
     const { name, value } = event.target;
@@ -40,6 +46,7 @@ function ContactForm() {
         <h3 className="white-text ">Leave your Information </h3>
         <br></br>
         <form>
+          {/* name =  formdata.name */}
           <TextInput
             value={formData.Name}
             onChange={handleInputChange}
@@ -47,6 +54,7 @@ function ContactForm() {
             placeholder="Name "
             inputClassName="white-text "
           />
+
           <TextInput
             value={formData.Email}
             onChange={handleInputChange}
@@ -62,12 +70,13 @@ function ContactForm() {
             inputClassName="white-text "
           />
           <TextInput
-            value={formData.Text}
+            value={formData.Information}
             onChange={handleInputChange}
-            name="Text"
+            name="Information"
             placeholder="Information "
             inputClassName="white-text "
           />
+
           <Button
             className="btn right black white-text "
             onClick={HandleSubmit}
