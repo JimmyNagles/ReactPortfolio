@@ -25,7 +25,7 @@ function ContactForm() {
       Name,
     }).then((result) => {
       console.log(result);
-      alert("sending")
+     console.log("thank you,I will reach back to you ASAP!")
     });
   };
 
@@ -81,7 +81,9 @@ function ContactForm() {
             className="btn right black white-text "
             onClick={HandleSubmit}
           >
-            Submit
+            <Link className="white-text" to={"/"}>
+              Submit
+            </Link>
           </Button>
         </form>
       </Container>
