@@ -1,21 +1,22 @@
 import React from "react";
 import { Container, Row, Col } from "react-materialize";
-
+import Image from "../Components/Image/Image";
 export default function About() {
   return (
     <div>
       <Container>
-        <Container>
-          <h2 className="white-text center">About</h2>
-        </Container>
+        <Container></Container>
       </Container>
 
       <Container>
         <Row>
           <Col l={6}>
-            <h2 className="white-text center">Picture</h2>
+            <Image></Image>
           </Col>
           <Col l={6}>
+            <br></br>
+            <br></br>
+            <br></br>
             <h5 className="white-text ">
               I'm from Bogota, Colombia. However, I grew up in Miami, Fl. After
               living in Miami for most of my life, I moved to Gainesville, Fl.
