@@ -12,6 +12,9 @@ import PhotoFour from "../css/img/Photo (11).jpg";
 import CardPanel from "../Components/Cards/CardPanel";
 
 import ProjectCard from "../Components/Projects/ProjectsCard";
+
+import Typical from "react-typical";
+
 export default function Home() {
   return (
     <div>
@@ -20,8 +23,15 @@ export default function Home() {
         <CardPanel>
           <Container>
             <Row className="center ">
-              <h1 className="black-text ">Welcome </h1>
-              <h5 className="black-text "> Full Stack Web Developer</h5>
+             
+              <h2>
+                {" "}
+                <Typical
+                  steps={["Welcome ", 1000, "I'm a Full-stack Web Developer", 1000,"Feel free to contact ", 2000]}
+                  loop={Infinity}
+                  wrapper="p"
+                />
+              </h2>
             </Row>
           </Container>
         </CardPanel>
