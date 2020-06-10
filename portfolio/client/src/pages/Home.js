@@ -23,11 +23,19 @@ export default function Home() {
         <CardPanel>
           <Container>
             <Row className="center ">
-             
               <h2>
                 {" "}
                 <Typical
-                  steps={["Welcome ", 1000, "I'm a Full-stack Web Developer", 1000,"Feel free to contact ", 2000]}
+                  steps={[
+                    "Welcome!",
+                    1000,
+                    "I'm a Full-stack Web Developer",
+                    1000,
+                    "Take a look and...",
+                    1000,
+                    "Feel free to contact me if you like!",
+                    3000,
+                  ]}
                   loop={Infinity}
                   wrapper="p"
                 />
