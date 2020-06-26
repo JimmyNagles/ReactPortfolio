@@ -9,7 +9,7 @@ function Contact() {
     <div>
       <Container>
         <Container>
-          <h2 className="white-text">Contact</h2>
+      
         </Container>
       </Container>
 

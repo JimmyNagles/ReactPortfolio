@@ -8,7 +8,7 @@ const Image = () => {
         className="responsive-img transparent "
       
       >
-        <img className="responsive-img" src={Photo}></img>
+        <img className="responsive-img circle" src={Photo}></img>
       </Card>
     </div>
   );

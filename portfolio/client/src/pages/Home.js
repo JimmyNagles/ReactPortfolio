@@ -30,7 +30,7 @@ export default function Home() {
                     "Welcome!",
                     1000,
                     "I'm a Full-stack Web Developer",
-                    1000,
+                    2000,
                     "Take a look and...",
                     1000,
                     "Feel free to contact me if you like!",
@@ -81,7 +81,7 @@ export default function Home() {
           <Card
             image={PhotoFour}
             title={<h8>food App</h8>}
-            info={" Search for recipes of food online and get them delivered  "}
+            info={" Search for recipes and get the ingredients delivered  "}
             tech={" Css Html Javascript Materialize "}
             link={"https://github.com/dasBottles/project1"}
           />
