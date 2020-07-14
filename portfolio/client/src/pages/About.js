@@ -18,7 +18,7 @@ export default function About() {
             <br></br>
             <br></br>
             <h5 className="white-text ">
-              I'm from Bogota, Colombia. However, I grew up in Miami, Fl. After
+             I'm from Colombia, but I grew up in Miami, Fl. After
               living in Miami for most of my life, I moved to Gainesville, Fl.
               There, I continued my studies at Santa Fe community college. after
               attending for almost 2 years, I got a bit frustrated with the
