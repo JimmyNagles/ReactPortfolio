@@ -16,9 +16,19 @@ export default function Card(props) {
           </div>
 
           <div class="card-action">
-            <a className="orange-text" href={props.link}>
-              github
-            </a>
+            <ul>
+              <li>
+                <a className="orange-text" href={props.link}>
+                  github
+                </a>
+              </li>
+
+              <li>
+                <a className="orange-text" href={props.deploy}>
+                  Deployed
+                </a>
+              </li>
+            </ul>
           </div>
         </div>
       </div>

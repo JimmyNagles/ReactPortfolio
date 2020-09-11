@@ -30,10 +30,13 @@ const ProjectsCard = () => {
         />
         <Card
           image={BookImg}
-          title={<h8>Google Books</h8>}
-          info={" Search for books on googles API and save them  "}
-          tech={" Mongodb, Express, React, Node.(work in progress)"}
-          link={"https://github.com/JimmyNagles/GoogleBooks"}
+          title={<h8>Journal</h8>}
+          info={" A place to leave thoughts and clear the mind "}
+          tech={
+            "Aws amplify, Aws app Sync,Graphql, React, Node.(work in progress)"
+          }
+          link={"https://github.com/JimmyNagles/CloudApp"}
+          deploy={"https://master.dy5cznsin2vzo.amplifyapp.com/notes"}
         />
       </Row>
     </div>
