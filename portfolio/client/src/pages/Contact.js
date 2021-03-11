@@ -16,8 +16,8 @@ function Contact() {
       <Container>
         <Container>
           <CardInfo>
-            <h4>Email: Jimmynagles@gmail.com</h4>
-            <h4>Phone: 3055888834</h4>
+            <h4> <i class="material-icons">email</i> Jimmynagles@gmail.com</h4>
+            <h4> <i class="material-icons">call</i> 7867210845</h4>
 
             <Row>
               <h5 className="col">

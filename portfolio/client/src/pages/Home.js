@@ -23,23 +23,23 @@ export default function Home() {
         <CardPanel>
           <Container>
             <Row className="center ">
-              <h2>
+              <h3>
                 {" "}
                 <Typical
                   steps={[
                     "Welcome!",
                     1000,
+                    "My name is Jimmy",
+                    2000,
                     "I'm a Full-stack Web Developer",
                     2000,
-                    "Take a look and...",
-                    1000,
                     "Feel free to contact me if you like!",
                     3000,
                   ]}
                   loop={Infinity}
                   wrapper="p"
                 />
-              </h2>
+              </h3>
             </Row>
           </Container>
         </CardPanel>
