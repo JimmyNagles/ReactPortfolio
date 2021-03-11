@@ -1,10 +1,11 @@
 import React from "react";
+import { Col, Row } from "react-materialize";
 
 export default function Card(props) {
   return (
     <div>
       <div class="col s12 m6 l4">
-        <div class="card-small transparent center">
+        <div class="card-medium  center">
           <div class="card-image">
             <img width="250" height="250" src={props.image}></img>
           </div>
@@ -15,20 +16,23 @@ export default function Card(props) {
             <h6>{props.tech}</h6>
           </div>
 
-          <div class="card-action">
-            <ul>
-              <li>
-                <a className="orange-text" href={props.link}>
-                  github
-                </a>
-              </li>
+          <div class="card-action ">
 
-              <li>
-                <a className="orange-text" href={props.deploy}>
+            <Row className="center">
+
+              <Col className="center" s={12} m={6} l={6} >
+              <a className="orange-text" href={props.link}>
+                  Github
+                </a>
+              </Col>
+              <a className="orange-text" href={props.deploy}>
                   Deployed
                 </a>
-              </li>
-            </ul>
+              <Col className="center" s={12} m={6} l={6} >
+              
+              </Col>
+            </Row>
+          
           </div>
         </div>
       </div>
